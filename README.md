@@ -1,3 +1,29 @@
+# Play Economy
+Welcome to the Play Economy website, a cloud native virtual economy system.
+
+## To get started, you can:
+
+* Manage the [Catalog](https://github.com/Jagrajveer/Play.Catalog.Service)
+* Check a user's [Inventory](https://github.com/Jagrajveer/Play.Inventory.Service)
+* Manage the [User](https://github.com/Jagrajveer/Play.User.Service)
+
+
+## You can also
+
+* Manage the [message queues](http://localhost:15672/)
+* Explore the Open API documentation:
+* [Catalog service](https://localhost:7185/swagger)
+* [Inventory service](https://localhost:7174/swagger)
+* [User service](https://localhost:7010/swagger)
+
+## This website was built with:
+
+* [ASP.NET Core](https://get.asp.net/) and [C#](https://docs.microsoft.com/en-us/dotnet/csharp) for cross-platform server-side code
+* [Docker](https://www.docker.com/) for services containerization
+* [MongoDB](https://www.mongodb.com/) for database storage
+* [RabbitMQ](https://www.rabbitmq.com/) and [MassTransit](https://masstransit-project.com/) for message-based asynchronous communication
+* [React](https://facebook.github.io/react/) for client-side rendering and [Bootstrap](http://getbootstrap.com/) for layout and styling
+
 # Play.Frontend
 React based frontend for the Play Economy system. 
 
